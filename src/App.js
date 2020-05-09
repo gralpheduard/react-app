@@ -5,6 +5,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1>React App</h1>
+      <h2>Author: Ralph Eduard C. Gannaban</h2>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
