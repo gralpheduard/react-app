@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+#Band-1, #Band-2, #Band-3, #Band-4, #Band-5, #Band-6{
+  animation: head .3s ease infinite alternate;
+}
+
+@keyframes head{
+  from{
+      transform: rotateY(0deg)
+  }
+  to{
+      transform: rotateY(5deg)
+  }
+}
