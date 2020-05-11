@@ -5,36 +5,20 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
-
-
-import { makeStyles } from '@material-ui/core/styles';
-
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));
-
+import useStyles from './NavBar-Styles';
 
 const NavBar = () =>{
   const classes = useStyles();
 
     return(
     <div>
-        <AppBar position="static"className={classes.root}>
+        <AppBar color="textSecondary" position="static"className={classes.root}>
             <Toolbar>
                 <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                 <MenuIcon />
                 </IconButton>
                 <Typography variant="h6" className={classes.title}>
-                {/* News */}
+                Kulots
                 </Typography>
                 <Button color="inherit">Button</Button>
             </Toolbar>
