@@ -1,11 +1,12 @@
 import React from 'react';
-import {NavBar, Cover} from '../../Component'
+import {NavBar, Cover, Cards} from '../../Component'
 
 const Home = () =>{
     return (
         <div>
             <NavBar />
             <Cover />
+            <Cards />
         </div>
     )
 }

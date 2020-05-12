@@ -5,7 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
-import useStyles from './NavBar-Styles';
+import useStyles from './useStyles'
 
 const NavBar = () =>{
   const classes = useStyles();
@@ -17,7 +17,7 @@ const NavBar = () =>{
                 <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                 <MenuIcon />
                 </IconButton>
-                <Typography variant="h6" className={classes.title}>
+                <Typography variant="h6" color="third"className={classes.title}>
                 Kulots
                 </Typography>
                 <Button color="inherit">Button</Button>
