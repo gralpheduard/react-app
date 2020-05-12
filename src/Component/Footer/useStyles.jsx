@@ -4,6 +4,9 @@ const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
     },
+    contentLinks:{
+        fontSize: 12,
+    },
    footer:{
        backgroundColor: theme.palette.third.main,
        color: theme.palette.primary.main,

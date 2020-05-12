@@ -2,7 +2,6 @@ import React from 'react';
 import { Grid, Typography, Box } from '@material-ui/core'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import MailIcon from '@material-ui/icons/Mail';
 import useStyles from './useStyles'
 
 const Footer = () =>{
@@ -18,22 +17,22 @@ const Footer = () =>{
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12}>
                     <Box mb={1}>
-                        <Typography>This is just a portfolio by Ralph Eduard C. Gannaban - Links below</Typography>
+                        <Typography className={classes.contentLinks}>This is just a portfolio by Ralph Eduard C. Gannaban - Links below</Typography>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12}>
                     <Box>
-                        <a href=""><LinkedInIcon color="primary"/></a> <a href=""><FacebookIcon color="primary"/></a>
+                        <a href="youtube.com"><LinkedInIcon color="primary"/></a> <a href="youtube.com"><FacebookIcon color="primary"/></a>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12}>
                     <Box mb={2}>
-                        gralpheduard@gmail.com
+                        <Typography className={classes.contentLinks}>gralpheduard@gmail.com</Typography>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12}>
                     <Box mb={2}>
-                        ©2020 Ralph Eduard C. Gannaban. All rights reserved
+                        <Typography className={classes.contentLinks}>©2020 Ralph Eduard C. Gannaban. All rights reserved</Typography>
                     </Box>
                 </Grid>
             </Grid>

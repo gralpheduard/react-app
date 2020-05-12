@@ -2,7 +2,6 @@ import React from 'react';
 import {Grid} from '@material-ui/core'
 import {One, Two, Three, Four, Five, Six} from './SVGs'
 import CardSection from './CardSection'
-import { makeStyles } from '@material-ui/core/styles';
 import useStyles from './useStyles'
 
 const Cards = () =>{
