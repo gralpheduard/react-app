@@ -23,9 +23,6 @@ const useStyles = makeStyles((theme) => ({
             [theme.breakpoints.down('md')]:{
                 height:"100%"
             },
-            // [theme.breakpoints.down('xs')]:{
-            //     height:290
-            // }
       },
     title:{
         marginBottom: 30,
@@ -47,9 +44,6 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: "30%",
         marginRight: "30%"
     },
-    coverBottom:{
-        // marginBottom:'31%'
-    },
     afros:{
         marginLeft: "10%",
         marginRight: "10%",
@@ -58,8 +52,6 @@ const useStyles = makeStyles((theme) => ({
             marginTop:"5%",
         },
     }
-
-
 }));
 
 export default useStyles;

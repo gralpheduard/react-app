@@ -1,10 +1,8 @@
 import React from 'react';
 import SvgPC from './Svgs/SvgPC'
-import Box from '@material-ui/core/Box';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
+import { Box, Grid, Typography, Button } from '@material-ui/core';
+
 import useStyles from './useStyles'
-import Button from '@material-ui/core/Button'
 const Cover =()=>{
     const classes = useStyles();
 
@@ -16,7 +14,7 @@ const Cover =()=>{
                             <Typography variant="h3" component="h3">The kulots</Typography>
                         </Box>
                         <Box className={classes.subTitle}>
-                            <Typography  variant="h5" component="h2">If you have a curly hair, put your hands in the air and wave it like you just don't care!</Typography>
+                            <Typography  variant="h5" component="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptates magnam dolor! Corrupti id quam</Typography>
                         </Box>
                         <Box className={classes.coverBottom}>
                             <Button color="secondary"variant="contained">
@@ -31,8 +29,6 @@ const Cover =()=>{
 
                     </Grid>
                 </Grid>
-
-
             </div>
         )
     }
