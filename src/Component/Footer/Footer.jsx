@@ -22,7 +22,7 @@ const Footer = () =>{
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12}>
                     <Box>
-                        <a href="youtube.com"><LinkedInIcon color="primary"/></a> <a href="youtube.com"><FacebookIcon color="primary"/></a>
+                        <a href="www.linkedin.com/in/ralph-eduard-gannaban-ab3706171"><LinkedInIcon color="primary"/></a> <a href="https://www.facebook.com/ralph.gannaban"><FacebookIcon color="primary"/></a>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} lg={12}>
