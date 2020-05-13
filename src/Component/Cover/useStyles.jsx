@@ -7,8 +7,11 @@ const useStyles = makeStyles((theme) => ({
     words:{
         backgroundColor: theme.palette.third.main,
         height: 690,
-        [theme.breakpoints.down('md')]:{
-            height: 687,
+        [theme.breakpoints.up('lg')]:{
+            height: 652,
+        },
+        [theme.breakpoints.up('md')]:{
+            height: 690,
         },
         [theme.breakpoints.down('xs')]:{
             height: 700,
@@ -16,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     },
     svg:{
         backgroundColor: theme.palette.secondary.main,
-            height:"100%",
+            height: 690,
             [theme.breakpoints.down('lg')]:{
                 height: 690,
             },
